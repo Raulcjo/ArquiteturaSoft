@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-08-04T00:15:27.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CjLSFQ0fJkvq_S7panv6" version="21.6.6" type="github">
+  <diagram name="Página-1" id="r7h5lVjgv5RuZ7RpdvEB">
+    <mxGraphModel dx="794" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-13" value="Produto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-14" value="- nome: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-13">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-15" value="&amp;nbsp;- preco: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-13">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-16" value="- tipo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-13">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-17" value="DataTabela" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-18" value="- dataTabela[][]: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-21" value="Consulta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="150" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-22" value="- produtos : &amp;lt;Produto&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-21">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-23" value="- periodo : &amp;lt;DataTabela&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-21">
+          <mxGeometry y="52" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-27" value="Tabela" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="140" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-28" value="- linhas : &amp;lt;string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-27">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAMKWeNSvlQ_5Tc1Q1jg-29" value="- colunas : &amp;lt;string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAMKWeNSvlQ_5Tc1Q1jg-27">
+          <mxGeometry y="52" width="140" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
