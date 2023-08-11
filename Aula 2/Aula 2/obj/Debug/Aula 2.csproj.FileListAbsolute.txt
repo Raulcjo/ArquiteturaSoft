@@ -1,0 +1,7 @@
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\obj\Debug\Aula 2.csproj.AssemblyReference.cache
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\obj\Debug\Aula 2.csproj.CoreCompileInputs.cache
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\bin\Debug\Aula 2.exe.config
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\bin\Debug\Aula 2.exe
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\bin\Debug\Aula 2.pdb
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\obj\Debug\Aula 2.exe
+C:\Users\autologon.CSED\Documents\Visual Studio 2019\Aula 2\Aula 2\obj\Debug\Aula 2.pdb
